@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto de Venta - Tienda de Ropa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>POS Tienda de Ropa</h1>
+        </header>
+
+        <main class="pos-wrapper">
+            <!-- Sección de Productos -->
+            <section class="products-grid" id="product-menu">
+                <!-- Los productos se cargan aquí con JS -->
+            </section>
+
+            <!-- Sección de Carrito -->
+            <aside class="cart-section">
+                <h2>Cuenta Actual</h2>
+                <div id="cart-items">
+                    <!-- Items del carrito -->
+                </div>
+                <div class="cart-total">
+                    <h3>Total: <span id="total-amount">$0.00</span></h3>
+                </div>
+                <button class="btn-checkout" onclick="checkout()">Cobrar / Limpiar</button>
+            </aside>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
